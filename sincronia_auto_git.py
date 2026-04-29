@@ -37,7 +37,7 @@ aba_baixas_secundario = "BAIXAS_SECUNDARIO"
 
 
 def registrar_log(mensagem):
-    agora = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    agora = datetime.now().strftime("%d-%m-%Y %H:%M:%S")
     linha = f"[{agora}] {mensagem}\n"
     with open(caminho_log, "a", encoding="ISO-8859-1") as f:
         f.write(linha)
