@@ -20,12 +20,8 @@ def compl(texto):
 def limpar(texto):
     if pd.isna(texto) or str(texto).strip() == "" or str(texto).upper() == "NAN": 
         return ""
-        
     t = str(texto).upper().replace("R ", "RUA")
-    
-
     t = unicodedata.normalize('NFKD', t).encode('ASCII', 'ignore').decode('utf-8')
-    
     return "".join(filter(str.isalnum, t))
 
 def matricula_vazia_novA(texto):
@@ -67,4 +63,3 @@ resultado.to_excel(pasta_excel, index=False)
 resultado.to_sql('Tabela_destino_banco', cnc, if_exists='replace', index=False)
 
 print("Comparação concluída. Resultado salvo em Excel e banco de dados.")
-print(df_caca.head(10))
