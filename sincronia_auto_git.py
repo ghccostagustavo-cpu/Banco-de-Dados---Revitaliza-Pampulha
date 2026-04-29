@@ -181,7 +181,3 @@ if __name__ == "__main__":
     sincronizar_dados_adesao()
     sincronizar_dados_baixas_secundario()
     sincronizar_dados_caca_esgoto()
-
-    conexao = sqlite3.connect(caminho_banco)
-    print(pd.read_sql_query(f'SELECT * FROM {tabela_adesao};', conexao))
-    conexao.close()
