@@ -10,7 +10,8 @@ Funcionalidades:
 
  O script "sincronia_CADASTRO_auto" tem uma sacada muito legal, pega a planilha geral da Copasa, com mais de 250K linhas e lança no banco de dados sem as colunas desnecessárias. Além de estar num banco SQLite, que já acelera as consultas, eu tratei as coordenas para WKT, formato aceito no QGIS. A tabela, portanto, está 100% georreferenciada. Ele está à parte por que é um script que mexe com muitos dados e não usaremos ele com frequência.
 
+O script "resolvendo_irregularidades" usa de fuzzy matching pra tratar de erros de despadronização e erros de digitação. Exemplo: "RUAA|NUMERO2|VILALUGAR" é o mesmo endereço de de "RUAA|NUMERO2|LUGAR", porém o computador lê como informações completamente diferentes. O fuzzy matching usa de comparaçao e porcentagem determinar se é erro de digitação ou informações totalmente divergentes, de fato. Este script de auditoria pega as diferenças de digitação e atribui o valor padrão correto pro valor padrão incorreto no banco de dados. 
 
 Observações quanto ao uso de inteligência artificial: A IA foi usada nesse projeto na parte de otimização de alguns códigos, correções eventuais, algumas revisões e na sugestão de algumas funcionalidades que eu não tinha domínio e que foram de grande ajuda (Ex. converter as coordenadas pra WKT, uso do módulo re, etc).
 
-Dúvidas ou sugestões: [LinkedIn](https://www.linkedin.com/in/gustavo-costa-51110223b/) ou no contato do github mesmo.
+Dúvidas ou sugestões: [LinkedIn](linkedin.com/in/gustavo-costa-comp/) ou no contato do github mesmo.
