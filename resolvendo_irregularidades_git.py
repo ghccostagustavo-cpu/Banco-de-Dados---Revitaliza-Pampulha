@@ -56,3 +56,4 @@ def correcao_chaves_dif():
 
 if __name__ == "__main__":
     correcao_chaves_dif()
+    
