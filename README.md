@@ -15,4 +15,6 @@ Além disso, usei estratégias para evitar SQL injections. Apesar de ser improv�
 
 Observações quanto ao uso de inteligência artificial: A IA foi usada nesse projeto na parte de otimização de alguns códigos, correções eventuais, algumas revisões e na sugestão de algumas funcionalidades que eu não tinha domínio e que foram de grande ajuda (Ex. converter as coordenadas pra WKT, uso do módulo re, etc).
 
+Atualização do projeto: Estou migrando o banco de dados de SQLite para PostgreSQL. Demais alterações/adições nos scripts, vou atualizando aqui.
+
 Dúvidas ou sugestões: [LinkedIn](linkedin.com/in/gustavo-costa-comp/) ou no contato do github mesmo.
