@@ -17,4 +17,4 @@ Observações quanto ao uso de inteligência artificial: A IA foi usada nesse pr
 
 Atualização do projeto: Banco migrado para PostgreSQL! Atualizações dos scripts em breve
 
-Dúvidas ou sugestões: [LinkedIn](linkedin.com/in/gustavo-costa-comp/) ou no contato do github mesmo.
+Dúvidas ou sugestões: LinkedIn: linkedin.com/in/gustavo-costa-comp/ ou no contato do github mesmo.
